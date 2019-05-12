@@ -1,6 +1,17 @@
+html {
+    height: 100%;
+}
 body {
-    align-content: center;
-    text-align: center;
+    display: unset;
+}
+
+.parallax {
+    top: 50%;
+    height: 100%;
+    background-attachment: fixed;   
+    background-origin: initial;
+    background-repeat: no-repeat;
+    background-size: inherit;
 }
 
 .splash-slide {
@@ -9,46 +20,52 @@ body {
 
 .splash-slide0 {
     padding-left: 0%;
-    background-attachment: fixed;
-    background-image: url("..\images\splash-pre-escalate.jpg");
-    background-position: left;    
-    height: inherit;
-    background-origin: initial;
-    background-repeat: no-repeat;
-    background-size: inherit;
+    background-image: url("../images/splash-pre-escalate.jpg");
+    background-position: left;
 }
 
 .splash-slide1 {
     padding-right: 0%;
-    background-attachment: fixed;
-    background-image: url("..\images\splash-post-escalate.jpg");
-    background-position: right;   
-    height: inherit;
-    background-origin: initial;
-    background-repeat: no-repeat;
-    background-size: inherit;
+    background-image: url("../images/splash-post-escalate.jpg");
+    background-position: right;
 }
 
 .paint-slide{
-
+    background-image: url("../images/green.png");
 }
 
-.painting-slide {}
+.painting-slide {
+    background-image: url("../images/red.png");
+}
 
 .dadi-nebulizer {
-
+    background-image: url("../images/yellow.png");
 }
 
-.roster-slide {}
+.roster-slide {
+    background-image: url("../images/green.png");
+}
 
-.lti-slide0 {}
+.lti-slide0 {
+    background-image: url("../images/red.png");
+}
 
-.lti-slide1 {}
+.lti-slide1 {
+    background-image: url("../images/yellow.png");
+}
 
-.pubby-slide0 {}
+.pubby-slide0 {
+    background-image: url("../images/green.png");
+}
 
-.pubby-slide1 {}
+.pubby-slide1 {
+    background-image: url("../images/red.png");
+}
 
-.chocolate-slide {}
+.chocolate-slide {
+    background-image: url("../images/yellow.png");
+}
 
-.last-slide {}
+.last-slide {
+    background-image: url("../images/green.png");
+}
