@@ -1,33 +1,46 @@
 html {
     height: 100%;
 }
+
 body {
+    height: 100%;
     display: unset;
 }
 
 .parallax {
-    top: 50%;
     height: 100%;
     background-attachment: fixed;   
     background-origin: initial;
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .splash-slide {
-    height: 100%;
+    z-index: 1;
 }
 
 .splash-slide0 {
-    padding-left: 0%;
-    background-image: url("../images/splash-pre-escalate.jpg");
-    background-position: left;
+    width: 50%;
+    background-image: url("../images/animate0.png");
 }
 
 .splash-slide1 {
-    padding-right: 0%;
-    background-image: url("../images/splash-post-escalate.jpg");
-    background-position: right;
+    width: 50%;
+    background-image: url("../images/animate1.png");
 }
 
 .paint-slide{
@@ -61,10 +74,10 @@ body {
 .pubby-slide1 {
     background-image: url("../images/red.png");
 }
-
 .chocolate-slide {
     background-image: url("../images/yellow.png");
 }
+
 
 .last-slide {
     background-image: url("../images/green.png");
