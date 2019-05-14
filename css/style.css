@@ -82,3 +82,7 @@ body {
 .last-slide {
     background-image: url("../images/green.png");
 }
+
+.last-slide h2{
+    font-size: 10em;
+}
