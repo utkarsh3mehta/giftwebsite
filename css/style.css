@@ -22,67 +22,92 @@ body {
     flex-direction: column;
 }
 
-.flex-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
 .splash-slide {
     z-index: 1;
 }
 
-.splash-slide0 {
-    width: 50%;
-    background-image: url("../images/animate0.png");
-}
-
-.splash-slide1 {
-    width: 50%;
-    background-image: url("../images/animate1.png");
-}
-
 .paint-slide{
-    background-image: url("../images/green.png");
+    background-image: url("../images/paint-butter.jpg");
 }
 
 .painting-slide {
-    background-image: url("../images/red.png");
+    background-image: url("../images/painting.jpg");
 }
 
 .dadi-nebulizer {
-    background-image: url("../images/yellow.png");
+    background-image: url("../images/dadi-breathing.jpg");
+}
+
+.dadi-yo {
+    background-image: url("../images/dadi-yo.jpg")
 }
 
 .roster-slide {
-    background-image: url("../images/green.png");
+    background-image: url("../images/roster.png");
 }
 
 .lti-slide0 {
-    background-image: url("../images/red.png");
+    background-image: url("../images/lti-waters.png");
 }
 
 .lti-slide1 {
-    background-image: url("../images/yellow.png");
+    background-image: url("../images/lti-cabs.png");
 }
 
 .pubby-slide0 {
-    background-image: url("../images/green.png");
+    background-image: url("../images/maitri-jeans.png");
 }
 
 .pubby-slide1 {
-    background-image: url("../images/red.png");
+    background-image: url("../images/maitri-jeans-notice.png");
 }
 .chocolate-slide {
-    background-image: url("../images/yellow.png");
-}
-
-
-.last-slide {
-    background-image: url("../images/green.png");
+    background-image: url("../images/chocolate-bar.PNG");
 }
 
 .last-slide h2{
     font-size: 10em;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .paint-slide{
+        background-image: url("../images/paint-butter-mobile.jpg")
+    }
+
+    .painting-slide {
+        background-image: url("../images/painting.jpg");
+    }
+    
+    .dadi-nebulizer {
+        background-image: url("../images/dadi-breathing-mobile.jpg");
+    }
+    
+    .dadi-yo {
+        background-image: url("../images/dadi-yo-mobile.jpg")
+    }
+    
+    .roster-slide {
+        background-image: url("../images/roster.png");
+    }
+    
+    .lti-slide0 {
+        background-image: url("../images/lti-waters-mobile.png");
+    }
+    
+    .lti-slide1 {
+        background-image: url("../images/lti-cabs-mobile.png");
+    }
+    
+    .pubby-slide0 {
+        background-image: url("../images/maitri-jeans-mobile.png");
+    }
+    
+    .pubby-slide1 {
+        background-image: url("../images/maitri-jeans-notice-mobile.png");
+    }
+    .chocolate-slide {
+        background-image: url("../images/chocolate-bar-mobile.png");
+    }
 }
