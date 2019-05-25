@@ -35,42 +35,42 @@ p,h1,h2,h3,h4,h5,h6,small,sub {
 }
 
 .paint-slide{
-    background-image: url("../images/paint-butter-mobile.jpg")
+    background-image: url("../images/blue-mobile.png")
 }
 
 .painting-slide {
-    background-image: url("../images/painting.jpg");
+    background-image: url("../images/green-mobile.png");
 }
 
 .dadi-nebulizer {
-    background-image: url("../images/dadi-breathing-mobile.jpg");
+    background-image: url("../images/red-mobile.png");
 }
 
 .dadi-yo {
-    background-image: url("../images/dadi-yo-mobile.jpg")
+    background-image: url("../images/blue-mobile.png")
 }
 
 .roster-slide {
-    background-image: url("../images/roster.png");
+    background-image: url("../images/green-mobile.png");
 }
 
 .lti-slide0 {
-    background-image: url("../images/lti-waters-mobile.png");
+    background-image: url("../images/red-mobile.png");
 }
 
 .lti-slide1 {
-    background-image: url("../images/lti-cabs-mobile.png");
+    background-image: url("../images/blue-mobile.png");
 }
 
 .pubby-slide0 {
-    background-image: url("../images/maitri-jeans-mobile.png");
+    background-image: url("../images/green-mobile.png");
 }
 
 .pubby-slide1 {
-    background-image: url("../images/maitri-jeans-notice-mobile.png");
+    background-image: url("../images/red-mobile.png");
 }
 .chocolate-slide {
-    background-image: url("../images/chocolate-bar-mobile.png");
+    background-image: url("../images/blue-mobile.png");
 }
 
 .last-slide h2{
@@ -86,41 +86,41 @@ p,h1,h2,h3,h4,h5,h6,small,sub {
     }
     
     .paint-slide{
-        background-image: url("../images/paint-butter.jpg");
+        background-image: url("../images/blue.png");
     }
 
     .painting-slide {
-        background-image: url("../images/painting.jpg");
+        background-image: url("../images/green.png");
     }
 
     .dadi-nebulizer {
-        background-image: url("../images/dadi-breathing.jpg");
+        background-image: url("../images/red.png");
     }
 
     .dadi-yo {
-        background-image: url("../images/dadi-yo.jpg")
+        background-image: url("../images/blue.png")
     }
 
     .roster-slide {
-        background-image: url("../images/roster.png");
+        background-image: url("../images/green.png");
     }
 
     .lti-slide0 {
-        background-image: url("../images/lti-waters.png");
+        background-image: url("../images/red.png");
     }
 
     .lti-slide1 {
-        background-image: url("../images/lti-cabs.png");
+        background-image: url("../images/blue.png");
     }
 
     .pubby-slide0 {
-        background-image: url("../images/maitri-jeans.png");
+        background-image: url("../images/green.png");
     }
 
     .pubby-slide1 {
-        background-image: url("../images/maitri-jeans-notice.png");
+        background-image: url("../images/green1.png");
     }
     .chocolate-slide {
-        background-image: url("../images/chocolate-bar.PNG");
+        background-image: url("../images/blue.png");
     }
 }
