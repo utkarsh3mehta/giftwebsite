@@ -34,43 +34,16 @@ p,h1,h2,h3,h4,h5,h6,small,sub {
     background-color: white;
 }
 
-.paint-slide{
+.green-slide{
+    background-image: url("../images/green-mobile.png");
+}
+
+.red-slide{
+    background-image: url("../images/red-mobile.png");
+}
+
+.blue-slide{
     background-image: url("../images/blue-mobile.png")
-}
-
-.painting-slide {
-    background-image: url("../images/green-mobile.png");
-}
-
-.dadi-nebulizer {
-    background-image: url("../images/red-mobile.png");
-}
-
-.dadi-yo {
-    background-image: url("../images/blue-mobile.png")
-}
-
-.roster-slide {
-    background-image: url("../images/green-mobile.png");
-}
-
-.lti-slide0 {
-    background-image: url("../images/red-mobile.png");
-}
-
-.lti-slide1 {
-    background-image: url("../images/blue-mobile.png");
-}
-
-.pubby-slide0 {
-    background-image: url("../images/green-mobile.png");
-}
-
-.pubby-slide1 {
-    background-image: url("../images/red-mobile.png");
-}
-.chocolate-slide {
-    background-image: url("../images/blue-mobile.png");
 }
 
 .last-slide h2{
@@ -85,42 +58,15 @@ p,h1,h2,h3,h4,h5,h6,small,sub {
         font-size: 20px;
     }
     
-    .paint-slide{
-        background-image: url("../images/blue.png");
-    }
-
-    .painting-slide {
+    .green-slide{
         background-image: url("../images/green.png");
     }
-
-    .dadi-nebulizer {
+    
+    .red-slide{
         background-image: url("../images/red.png");
     }
-
-    .dadi-yo {
+    
+    .blue-slide{
         background-image: url("../images/blue.png")
-    }
-
-    .roster-slide {
-        background-image: url("../images/green.png");
-    }
-
-    .lti-slide0 {
-        background-image: url("../images/red.png");
-    }
-
-    .lti-slide1 {
-        background-image: url("../images/blue.png");
-    }
-
-    .pubby-slide0 {
-        background-image: url("../images/green.png");
-    }
-
-    .pubby-slide1 {
-        background-image: url("../images/green1.png");
-    }
-    .chocolate-slide {
-        background-image: url("../images/blue.png");
     }
 }
